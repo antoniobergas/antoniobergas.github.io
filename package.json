@@ -9,7 +9,8 @@
     "astro": "astro",
     "lint": "eslint --ext .astro,.js,.jsx,.ts,.tsx .",
     "commit": "git add . && oco",
-    "prettier": "prettier --write ."
+    "prettier:format": "prettier --write .",
+    "prettier:check": "prettier --check ."
   },
   "dependencies": {
     "@astrojs/check": "^0.3.1",
