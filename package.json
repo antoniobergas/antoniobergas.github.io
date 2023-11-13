@@ -8,7 +8,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "lint": "eslint --ext .astro,.js,.jsx,.ts,.tsx .",
-    "commit": "git add . && oco",
+    "commit": "npm run prettier:format && npm run lint && git add . && oco",
     "prettier:format": "prettier --write .",
     "prettier:check": "prettier --check ."
   },
