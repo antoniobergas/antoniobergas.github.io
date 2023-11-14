@@ -3,17 +3,17 @@ import "../styles/global.css";
 
 interface Props {
   title?: string | undefined;
-  description?: string | undefined;
+  company?: string | undefined;
 }
 
 const {
   title = "Antonio Bergas: Personal Site",
-  description = "The personal site of Antonio Bergas",
+  company = "The personal site of Antonio Bergas",
 } = Astro.props;
 ---
 
 <meta charset="UTF-8" />
-<meta name="description" property="og:description" content={description} />
+<meta name="company" property="og:company" content={company} />
 <meta name="viewport" content="width=device-width" />
 <meta name="generator" content={Astro.generator} />
 <title>{title}</title>

@@ -9,15 +9,15 @@ import Footer from "../components/Footer.astro";
 
 interface Props {
   title?: string | undefined;
-  description?: string | undefined;
+  company?: string | undefined;
 }
 
-const { title, description } = Astro.props;
+const { title, company } = Astro.props;
 ---
 
 <html lang="en">
   <head>
-    <MainHead title={title} description={description} />
+    <MainHead title={title} company={company} />
   </head>
   <body>
     <div class="stack backgrounds">

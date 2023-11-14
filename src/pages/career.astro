@@ -6,29 +6,27 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import ContactCTA from "../components/ContactCTA.astro";
 import Grid from "../components/Grid.astro";
 import Hero from "../components/Hero.astro";
-import PortfolioPreview from "../components/PortfolioPreview.astro";
+import PositionPreview from "../components/PositionPreview.astro";
 
-const projects = (await getCollection("work")).sort(
-  (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf(),
-);
+const positions = await getCollection("career");
 ---
 
 <BaseLayout
-  title="My Work | Antonio Bergas"
-  description="Learn about Antonio Bergas's most recent projects"
+  title="My Career | Antonio Bergas"
+  company="Learn about Antonio Bergas's career path"
 >
   <div class="stack gap-20">
     <main class="wrapper stack gap-8">
       <Hero
-        title="My Work"
-        tagline="See my most recent projects below to get an idea of my past experience."
+        title="My Career"
+        tagline="See what I've been up to in the past few years"
         align="start"
       />
       <Grid variant="offset">
         {
-          projects.map((project) => (
+          positions.map((position) => (
             <li>
-              <PortfolioPreview project={project} />
+              <PositionPreview position={position} />
             </li>
           ))
         }
