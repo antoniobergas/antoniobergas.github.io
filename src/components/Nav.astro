@@ -1,6 +1,6 @@
 ---
 import Icon from "./Icon.astro";
-import ThemeToggle from "./ThemeToggle.astro";
+// import ThemeToggle from "./ThemeToggle.astro";
 import type { iconPaths } from "./IconPaths";
 
 /** Main menu items */
@@ -19,12 +19,12 @@ const iconLinks: {
   {
     label: "GitHub",
     href: "https://github.com/antoniobergas",
-    icon: "github-logo",
+    icon: "github",
   },
   {
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/antoniobergas/",
-    icon: "linkedin-logo",
+    icon: "linkedin",
   },
 ];
 ---
@@ -123,7 +123,7 @@ const iconLinks: {
       </div>
 
       <div class="theme-toggle">
-        <ThemeToggle />
+        <!-- <ThemeToggle /> -->
       </div>
     </div>
   </div>
@@ -237,7 +237,7 @@ const iconLinks: {
     line-height: 1.2;
     list-style: none;
     padding: 2rem;
-    background-color: var(--gray-999);
+    background-color: var(--gray-900);
     border-bottom: 1px solid var(--gray-800);
   }
 
@@ -259,7 +259,7 @@ const iconLinks: {
     justify-content: space-between;
     gap: 0.75rem;
     padding: 1.5rem 2rem 1.5rem 1.5rem;
-    background-color: var(--gray-999);
+    background-color: var(--gray-900);
     border-radius: 0 0 0.75rem 0.75rem;
     box-shadow: var(--shadow-lg);
   }
@@ -275,7 +275,7 @@ const iconLinks: {
     display: flex;
     padding: var(--icon-padding);
     text-decoration: none;
-    color: var(--accent-dark);
+    color: var(--accent-regular);
     transition: color var(--theme-transition);
   }
 
@@ -347,7 +347,7 @@ const iconLinks: {
 
     .link.active {
       color: var(--accent-text-over);
-      background-color: var(--accent-regular);
+      background: var(--gradient-accent-orange);
     }
 
     .menu-footer {
