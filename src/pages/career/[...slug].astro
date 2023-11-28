@@ -86,10 +86,10 @@ const { Content } = await entry.render();
     max-width: 54ch;
   }
 
-  .content {
-    max-width: 65ch;
+  /* .content {
+    max-width: 90ch;
     margin-inline: auto;
-  }
+  } */
 
   .content > :global(* + *) {
     margin-top: 1rem;
@@ -132,6 +132,15 @@ const { Content } = await entry.render();
   .content :global(a:hover),
   .content :global(a:focus) {
     text-decoration-color: currentColor;
+  }
+
+  .content :global(li) {
+    font-size: var(--text-lg);
+    margin: 20px;
+  }
+
+  .content :global(ul) {
+    list-style: inside;
   }
 
   @media (min-width: 50em) {

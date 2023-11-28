@@ -101,7 +101,7 @@
   --accent-subtle-overlay: hsla(197, 81%, 36%, 0.33);
   --accent-text-over: var(--gray-0);
 
-  --link-color: var(--accent-dark);
+  --link-color: var(--accent-regular);
 
   --gradient-stop-1: var(--accent-dark);
   --gradient-subtle: linear-gradient(
@@ -206,7 +206,7 @@ h5 {
 
 .wrapper {
   width: 100%;
-  max-width: 83rem;
+  max-width: 75rem;
   margin-inline: auto;
   padding-inline: 1.5rem;
 }
