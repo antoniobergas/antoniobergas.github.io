@@ -40,7 +40,7 @@ const { Content } = await entry.render();
               <div class="tags">
                 {entry.data.tags.map((t: string) => <Pill>{t}</Pill>)}
               </div>
-              <p class="company">{entry.data.company}</p>
+              <p class="company">{entry.data.company} · {entry.data.period}</p>
             </div>
           </Hero>
         </div>

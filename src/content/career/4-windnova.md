@@ -1,7 +1,7 @@
 ---
 title: Full Stack Developer
-company: Windnova Systems
-period: 11 months
+company: Windnova Systems · Palma, Spain
+period: Aug 2020 - Jun 2021
 img: /assets/windnova.jpeg
 img_alt: Windnova Systems
 tags:
