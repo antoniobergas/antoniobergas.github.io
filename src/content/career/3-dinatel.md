@@ -1,7 +1,7 @@
 ---
 title: Full Stack Developer
-company: Dinatel Systems
-period: 3 years 4 months
+company: Dinatel Systems · Binissalem, Spain
+period: May 2017 - Aug 2020
 img: /assets/dinatel.jpeg
 img_alt: Dinatel Systems
 tags:

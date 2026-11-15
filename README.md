@@ -1,6 +1,6 @@
 # Hello there 👋
 
-I am a DevOps enthusiast and passionate about automation.
+Platform Engineer | CI/CD, GitHub Actions, DevSecOps | Developer Experience & Automation
 
 ## 🛠️ My Skills
 

@@ -5,10 +5,10 @@ interface Props {
   position: CollectionEntry<"career">;
 }
 
-const { data, slug } = Astro.props.position;
+const { data, id } = Astro.props.position;
 ---
 
-<a class="card" href={`/career/${slug}`}>
+<a class="card" href={`/career/${id}`}>
   <span class="title">{data.title}</span>
   <img
     src={data.img}

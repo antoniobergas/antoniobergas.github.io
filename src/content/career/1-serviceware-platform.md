@@ -1,7 +1,7 @@
 ---
 title: Platform Engineer
 company: Serviceware
-period: Current position
+period: Jun 2022 - Present
 img: /assets/serviceware.jpeg
 img_alt: Serviceware
 tags:
@@ -13,7 +13,16 @@ tags:
   - Linux
   - HashiCorp Ecosystem
   - Azure DevOps
+  - GitHub Actions
+  - CI/CD
+  - DevSecOps
 ---
+
+#### ⚙️ CI/CD Platform and Build Infrastructure
+
+- Build and run the CI/CD platform engineering teams rely on to build, test and ship software.
+- Maintain reusable GitHub Actions workflows and the build infrastructure behind them (agents and runners).
+- Work on making agentic (AI-driven) workflows as safe and repeatable as any other pipeline.
 
 #### 🎓 Workshops and Knowledge Transfer Sessions
 

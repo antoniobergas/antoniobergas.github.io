@@ -1,7 +1,7 @@
 ---
 title: Senior Software Engineer
-company: Serviceware
-period: 1 year
+company: Serviceware · Palma, Spain
+period: Jun 2021 - Jun 2022
 img: /assets/serviceware.jpeg
 img_alt: Serviceware
 tags:
